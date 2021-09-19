@@ -16,7 +16,7 @@ import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 
-public class BaseClass {
+public class BaseClass extends DemoExtentReports{
 
 	AppiumDriver<MobileElement> driver;
 	
